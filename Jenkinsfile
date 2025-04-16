@@ -1,5 +1,5 @@
 pipeline{
-  agent any {
+  agent any 
    
   
   stages{
@@ -15,6 +15,6 @@ pipeline{
       }
     }
   }
-  }
+  
 }
         
