@@ -1,7 +1,7 @@
 pipeline{
-  agent {
-    label 'jenkins_slave_node'
-  }
+  agent any {
+   
+  
   stages{
     stage('print server info'){
       steps{
@@ -14,6 +14,7 @@ pipeline{
         """
       }
     }
+  }
   }
 }
         
